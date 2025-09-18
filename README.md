@@ -25,7 +25,7 @@ This React application allows users to:
 
 The app consists of a **Home** page for recipes and a **Nutrition** page for nutritional analysis. It uses React Router for navigation between pages.
 
-<img width="2048" height="1592" alt="image" src="https://github.com/user-attachments/assets/cf325b6b-94ec-41e1-a5c6-544439a0396e" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cf325b6b-94ec-41e1-a5c6-544439a0396e" />
 
 
 ---
