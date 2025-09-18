@@ -7,7 +7,6 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [React Features Used](#react-features-used)
 - [Project Structure](#project-structure)
