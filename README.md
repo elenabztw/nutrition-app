@@ -1,3 +1,101 @@
+# Recipe & Nutrition React App
+
+> A modern React application for searching recipes and analyzing nutritional information using the Edamam API.
+
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [React Features Used](#react-features-used)
+- [Project Structure](#project-structure)
+- [API Integration](#api-integration)
+- [License](#license)
+
+---
+
+## Project Overview
+
+This React application allows users to:
+
+- Search for recipes based on ingredients.
+- View recipe details, including image, calories, and ingredient list.
+- Analyze nutritional information for selected ingredients.
+
+The app consists of a **Home** page for recipes and a **Nutrition** page for nutritional analysis. It uses React Router for navigation between pages.
+
+![Screenshot](https://via.placeholder.com/800x400?text=Recipe+App+Screenshot)
+
+---
+
+## Features
+
+- **Search Recipes**: Search recipes dynamically by typing ingredients.
+- **View Recipe Details**: See recipe image, calories, and a full list of ingredients.
+- **Nutrition Analysis**: Input ingredients to calculate calories and nutrients.
+- **Responsive Design**: Works on both desktop and mobile devices.
+- **Smooth UI/UX**: Video background, hover effects, and loading animations.
+
+---
+
+## Usage
+
+**Home Page:**
+
+Enter an ingredient in the search bar.
+
+Press Enter or click the search button.
+
+Browse recipes with images, calories, and ingredients.
+
+**Nutrition Page:**
+
+Enter detailed ingredients (e.g., "1 cup rice, 2 eggs").
+
+Click Search to see calorie count and nutrient breakdown.
+
+## React Features Used
+
+useState – for managing search input, recipe list, and nutritional data.
+
+useEffect – to fetch data when search terms are updated.
+
+React Router – for page navigation between Home and Nutrition.
+
+Functional Components – with props to render recipes and nutrients.
+
+Dynamic Rendering – mapping arrays to JSX components.
+
+Conditional Rendering – showing loader or nutrition details based on state.
+
+
+## Project Structure
+src/
+├── App.css
+├── App.jsx
+├── Home.jsx
+├── RecipeComp.jsx
+├── Nutrition/
+│   ├── NutritionApp.jsx
+│   └── Nutrition.jsx
+├── Loader/
+│   └── LoaderPage.jsx
+├── assets/
+│   └── food.mp4
+├── data.js
+
+## API Integration
+
+Recipes API: Edamam Recipe Search API
+
+Nutrition API: Edamam Nutrition Analysis API
+
+You need your own API credentials (APP_ID and APP_KEY) from Edamam to fetch data.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
