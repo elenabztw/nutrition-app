@@ -86,6 +86,7 @@ src/
 │   └── food.mp4
 ├── data.js
 
+
 ## API Integration
 
 Recipes API: Edamam Recipe Search API
