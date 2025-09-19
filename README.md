@@ -72,6 +72,7 @@ Conditional Rendering – showing loader or nutrition details based on state.
 
 
 ## Project Structure
+```
 src/
 ├── App.css
 ├── App.jsx
@@ -85,7 +86,7 @@ src/
 ├── assets/
 │   └── food.mp4
 ├── data.js
-
+```
 
 ## API Integration
 
