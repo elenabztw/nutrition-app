@@ -1,0 +1,50 @@
+.nutritionCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border-left: 4px solid rgb(59, 130, 133);
+}
+
+.nutritionCard:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.value {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(59, 130, 133);
+}
+
+.unit {
+  font-size: 13px;
+  font-weight: 400;
+  color: #7f8c8d;
+  margin-left: 2px;
+}
+
+@media (max-width: 480px) {
+  .nutritionCard {
+    padding: 12px 16px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+
+  .value {
+    font-size: 15px;
+  }
+}

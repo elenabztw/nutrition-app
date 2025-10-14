@@ -1,0 +1,266 @@
+.nutritionPage {
+  min-height: 100vh;
+  position: relative;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.374);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.backLink {
+  margin-bottom: 20px;
+}
+
+.backLink a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #515050;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.backLink a:hover {
+  color: rgb(42, 121, 99);
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  color: #515050;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.searchInput:focus {
+  border-color: rgb(59, 130, 133);
+}
+
+.searchInput::placeholder {
+  color: #999;
+}
+
+.searchBtn {
+  padding: 16px 32px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(135deg, rgb(59, 130, 133), rgb(42, 121, 99));
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 4px 15px rgba(59, 130, 133, 0.3);
+}
+
+.searchBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 133, 0.4);
+}
+
+.searchBtn:active {
+  transform: translateY(0);
+}
+
+.nutritionResults {
+  margin-top: 40px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.caloriesCard {
+  background: linear-gradient(135deg, rgb(42, 121, 99), rgb(101, 225, 229));
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.caloriesCard h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  opacity: 0.9;
+}
+
+.caloriesValue {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.caloriesValue span {
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.macrosGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sectionTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: #2c3e50;
+  margin: 0 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  font-weight: 600;
+}
+
+.nutrientsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 12px;
+}
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.searchBtn {
+  flex: 1;
+  padding: 16px 32px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(135deg, rgb(59, 130, 133), rgb(42, 121, 99));
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 4px 15px rgba(59, 130, 133, 0.3);
+}
+
+.searchBtn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 133, 0.4);
+}
+
+.searchBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.clearBtn {
+  padding: 16px 24px;
+  border: 2px solid rgb(59, 130, 133);
+  background: transparent;
+  color: rgb(59, 130, 133);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearBtn:hover {
+  background: rgb(59, 130, 133);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.macrosSection,
+.vitaminsSection {
+  margin-top: 30px;
+}
+
+.sectionTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: #2c3e50;
+  margin: 0 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  font-weight: 600;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 25px;
+    margin: 10px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .caloriesValue {
+    font-size: 36px;
+  }
+
+  .nutrientsList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .searchBtn {
+    padding: 14px 24px;
+    font-size: 16px;
+  }
+
+  .caloriesValue {
+    font-size: 32px;
+  }
+}
