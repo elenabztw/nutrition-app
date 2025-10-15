@@ -221,14 +221,14 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License 
 
 ## Author
 
 **Elena Bozoeva**
 
 - GitHub: [@elenabztw](https://github.com/elenabztw)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/elena-b-tw/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elena-b-tw/)
 
 ## Acknowledgments
 
@@ -255,12 +255,10 @@ If you have any questions or run into issues, please:
 ---
 
 Made  by Elena Bozoeva
-```
+
 
 ---
 
-
-```
 MIT License
 
 Copyright (c) 2025 Elena Bozoeva
