@@ -30,9 +30,11 @@ The app consists of a **Home** page for recipes and a **Nutrition** page for nut
 
 ## 🚀 Demo
 
-<img width="1442" height="1187" alt="image" src="https://github.com/user-attachments/assets/2429afd9-9632-4d2d-bfd4-65b658c8fed0" />
+<img width="1142" height="887" alt="image" src="https://github.com/user-attachments/assets/2429afd9-9632-4d2d-bfd4-65b658c8fed0" />
 
-[Live Demo](https://nutrition-edamam-app.netlify.app/) 
+<img width="1142" height="916" alt="image" src="https://github.com/user-attachments/assets/d00a19a7-48b3-47ed-ae4e-5b77efd13a41" />
+
+**[Live Demo](https://nutrition-edamam-app.netlify.app/)**
 
 ## 🛠️ Tech Stack
 
