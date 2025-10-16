@@ -8,3 +8,14 @@
   z-index: -1;
   opacity: 0.6;
 }
+
+@media screen and (max-width: 768px) {
+  video {
+    display: none; /* Hide video on mobile for performance */
+  }
+  
+  .nutritionPage {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* Or use a static image instead */
+  }
+}
